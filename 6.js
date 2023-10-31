@@ -1,29 +1,15 @@
-//WAP to find the reverse of a 4 digit number and compare it to the original number.
-let number = 3333;
-let rev = 0;
-
-if (number>999 && number <= 10000){
- let original_number = number;
-
-while (number > 0) {
-    rev = rev * 10 + (number % 10);
-    number = (number - (number % 10)) / 10;
-   
-}
-console.log(rev)
+//WAP to find whether the year is leap or not ( Do this with conditional operators)
 
 
-if (original_number === rev) {
-    console.log("The original number and reverse number are the same ");
-} else {
-   console.log("The original and reverse number are not the same.");
-}
+let year = 1800;
 
-}
+if(year%4===0){
+    if (year%100===0){
+        if(year%400===0){
+        console.log("This is a leap year")
 
-else{
-    
-    console.log("this is not a foure digit number please enter for digit number")
+    }else(console.log("this is not a leap year"))
 
-}
-
+    }else(console.log("this is  a leap year"))
+}else(console.log("this is not a leap year")
+    )

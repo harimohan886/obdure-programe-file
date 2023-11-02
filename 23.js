@@ -1,10 +1,8 @@
-function reverseNumberRecursive(n) {
-    if (n < 10) {
-      return n;
-    } else {
-      return {
-        rev = rev * 10 + (number % 10),
-        number = (number - (number % 10)) / 10;
-      }
-    }
-  }
+let arr = [43,534,58,57,432,56]
+
+let max =0;
+let min = 0;
+
+for(i=0;i<arr.length;i++){
+    if
+}
